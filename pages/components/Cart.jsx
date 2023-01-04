@@ -59,7 +59,7 @@ const Cart = () => {
           <div className="empty-cart">
             <AiOutlineShopping size={150} />
             <h3>Your shopping bag is empty</h3>
-            <Link href="/">
+            <Link passHref href="/">
               <button
                 type="button"
                 onClick={closeCart}
@@ -76,6 +76,7 @@ const Cart = () => {
             cartItems.map((item) => (
               <div className="product" key={item._id}>
                 <img
+                  alt=''
                   src={urlFor(item?.image[0])}
                   className="cart-product-image"
                 />
