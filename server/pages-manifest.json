@@ -1,0 +1,21 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/api/stripe": "pages/api/stripe.js",
+  "/components/Cart": "pages/components/Cart.js",
+  "/components/Footer": "pages/components/Footer.js",
+  "/components/FooterBanner": "pages/components/FooterBanner.js",
+  "/components/HeroBanner": "pages/components/HeroBanner.js",
+  "/components/Layout": "pages/components/Layout.js",
+  "/components/Navbar": "pages/components/Navbar.js",
+  "/components/Product": "pages/components/Product.js",
+  "/components": "pages/components.js",
+  "/": "pages/index.js",
+  "/lib/client": "pages/lib/client.js",
+  "/lib/getStripe": "pages/lib/getStripe.js",
+  "/lib/utils": "pages/lib/utils.js",
+  "/product/[slug]": "pages/product/[slug].js",
+  "/success": "pages/success.js",
+  "/_error": "pages/_error.js"
+}
